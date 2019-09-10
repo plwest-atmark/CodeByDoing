@@ -14,7 +14,7 @@ namespace InputAndOutput
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-
+            
             //  The Console 
             //  Represents the standard input, output, and error streams for console applications. 
             //  This class cannot be inherited.
