@@ -41,6 +41,7 @@ namespace InputAndOutput
             //          We usually do NOT validate unless we want a specific type to be input, like an integer.
             //          Validation will occur later in the code after the line has been input by the user.
 
+
             var myVariable = "This is my variable"; // Creates a "string" variable.
             var myOtherVariable = 24; // Creates an "int" variable.
 
@@ -49,6 +50,9 @@ namespace InputAndOutput
                                                           //  (it has no value, but does not create errors)
 
             int myIntVariable; // Creates an int variable.  The default value for an int variable is 0.
+
+
+            
 
 
         }
