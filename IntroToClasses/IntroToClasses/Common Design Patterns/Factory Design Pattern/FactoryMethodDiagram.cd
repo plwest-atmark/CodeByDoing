@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.AbstractFactory.AbstractDocumentFactory">
+    <Position X="2.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common Design Patterns\Factory Design Pattern\DocumentFactory\AbstractFactoryClass\AbstractDocumentFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.AbstractProduct.AbstractPageProduct">
+    <Position X="6.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Common Design Patterns\Factory Design Pattern\DocumentFactory\AbstractProductClass\AbstractPageProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.ConcreteFactory.ConcreteReportFactory">
+    <Position X="0.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common Design Patterns\Factory Design Pattern\DocumentFactory\ConcreteFactoryClasses\ConcreteReportFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.ConcreteFactory.ConcreteResumeFactory">
+    <Position X="3.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common Design Patterns\Factory Design Pattern\DocumentFactory\ConcreteFactoryClasses\ConcreteResumeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.ConcreteProduct.ConcreteBibliographyPageProduct" Collapsed="true">
+    <Position X="10" Y="3.5" Width="2.5" />
+    <InheritanceLine Type="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.AbstractProduct.AbstractPageProduct" FixedFromPoint="true">
+      <Path>
+        <Point X="8.25" Y="4.113" />
+        <Point X="10" Y="4.113" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common Design Patterns\Factory Design Pattern\DocumentFactory\ConcreteProduct\ConcreteBibliographyPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.ConcreteProduct.ConcreteConclusionPageProduct" Collapsed="true">
+    <Position X="10" Y="0.5" Width="2.5" />
+    <InheritanceLine Type="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.AbstractProduct.AbstractPageProduct" FixedFromPoint="true">
+      <Path>
+        <Point X="8.25" Y="4.113" />
+        <Point X="8.625" Y="4.113" />
+        <Point X="8.625" Y="0.846" />
+        <Point X="10" Y="0.846" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common Design Patterns\Factory Design Pattern\DocumentFactory\ConcreteProduct\ConcreteConclusionPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.ConcreteProduct.ConcreteEducationPageProduct" Collapsed="true">
+    <Position X="10" Y="6.5" Width="2.5" />
+    <InheritanceLine Type="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.AbstractProduct.AbstractPageProduct" FixedFromPoint="true">
+      <Path>
+        <Point X="8.25" Y="4.113" />
+        <Point X="8.625" Y="4.113" />
+        <Point X="8.625" Y="6.846" />
+        <Point X="10" Y="6.846" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common Design Patterns\Factory Design Pattern\DocumentFactory\ConcreteProduct\ConcreteEducationPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.ConcreteProduct.ConcreteExperiencePageProduct" Collapsed="true">
+    <Position X="10" Y="1.5" Width="2.5" />
+    <InheritanceLine Type="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.AbstractProduct.AbstractPageProduct" FixedFromPoint="true">
+      <Path>
+        <Point X="8.25" Y="4.113" />
+        <Point X="8.625" Y="4.113" />
+        <Point X="8.625" Y="1.846" />
+        <Point X="10" Y="1.846" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common Design Patterns\Factory Design Pattern\DocumentFactory\ConcreteProduct\ConcreteExperiencePage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.ConcreteProduct.ConcreteIntroductionPageProduct" Collapsed="true">
+    <Position X="10" Y="4.5" Width="2.5" />
+    <InheritanceLine Type="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.AbstractProduct.AbstractPageProduct" FixedFromPoint="true">
+      <Path>
+        <Point X="8.25" Y="4.113" />
+        <Point X="8.625" Y="4.113" />
+        <Point X="8.625" Y="4.846" />
+        <Point X="10" Y="4.846" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common Design Patterns\Factory Design Pattern\DocumentFactory\ConcreteProduct\ConcreteIntroductionPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.ConcreteProduct.ConcreteResultsPageProduct" Collapsed="true">
+    <Position X="10" Y="2.5" Width="2.5" />
+    <InheritanceLine Type="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.AbstractProduct.AbstractPageProduct" FixedFromPoint="true">
+      <Path>
+        <Point X="8.25" Y="4.113" />
+        <Point X="8.625" Y="4.113" />
+        <Point X="8.625" Y="2.846" />
+        <Point X="10" Y="2.846" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common Design Patterns\Factory Design Pattern\DocumentFactory\ConcreteProduct\ConcreteResultsPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.ConcreteProduct.ConcreteSkillsPageProduct" Collapsed="true">
+    <Position X="10" Y="5.5" Width="2.5" />
+    <InheritanceLine Type="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.AbstractProduct.AbstractPageProduct" FixedFromPoint="true">
+      <Path>
+        <Point X="8.25" Y="4.113" />
+        <Point X="8.625" Y="4.113" />
+        <Point X="8.625" Y="5.846" />
+        <Point X="10" Y="5.846" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common Design Patterns\Factory Design Pattern\DocumentFactory\ConcreteProduct\ConcreteSkillsPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.ConcreteProduct.ConcreteSummaryPageProduct" Collapsed="true">
+    <Position X="10" Y="7.5" Width="2.5" />
+    <InheritanceLine Type="IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.DocumentFactory.AbstractProduct.AbstractPageProduct" FixedFromPoint="true">
+      <Path>
+        <Point X="8.25" Y="4.113" />
+        <Point X="8.625" Y="4.113" />
+        <Point X="8.625" Y="7.846" />
+        <Point X="10" Y="7.846" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common Design Patterns\Factory Design Pattern\DocumentFactory\ConcreteProduct\ConcreteSummaryPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
