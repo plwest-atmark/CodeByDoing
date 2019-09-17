@@ -52,6 +52,10 @@ namespace IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.CompanyFa
         /// <param name="salaryInterval"></param>
         public Employee(string firstName, string lastName, Department department, double salary, SalaryInterval salaryInterval)
         {
+
+            // a GUID or Guid is a randomly generated "alphanumeric" code that will be unique.  There is less than
+            // 1 in 6 billion chance for the same Guid to be generated in any given program execution.
+            // This means that it's very good to be used as an ID number, since it will be unique.
             this._employeeID = Guid.NewGuid();
             FirstName = firstName;
             LastName = lastName;
