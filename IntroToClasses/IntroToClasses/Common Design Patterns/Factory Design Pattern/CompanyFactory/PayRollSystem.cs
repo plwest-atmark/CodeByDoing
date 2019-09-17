@@ -1,16 +1,28 @@
-﻿using IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.CompanyFactory.DepartmentFactory.Departments;
-using IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.CompanyFactory.DepartmentFactory.EmployeeProduct;
+﻿using IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.CompanyFactory.DepartmentFactory.EmployeeProduct;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.CompanyFactory
 {
+
+    /// <summary>
+    /// This is an interface for the PayrollSystem.  Using an interface allows us to create
+    /// multiple "system" that all behave in the same manner.  When we use an IPayrollSystem, the
+    /// "consumer" or the class using the payroll system does not have to worry about what "kind" of
+    /// processes and the details of how it works.  They just use the methods, properties, etc that are
+    /// in the interface.  
+    /// </summary>
     public interface IPayrollSystem
     {
         void AdjustSalary(Employee employee);
         void PayEmployees(Employee employee);
     }
+
+    /// <summary>
+    /// A "concrete" implimentation a payroll system.  In the real world, this would be an entire
+    /// system instead of just a single file.  It would contain logic to talk with the database, security
+    /// measures to ensure no one changes data, and a number of other items that will help with
+    /// ensuring the system is good and works as expected in all cases.
+    /// </summary>
     public class PayRollSystem : IPayrollSystem
     {
         public void AdjustSalary(Employee employee)
@@ -61,12 +73,16 @@ namespace IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.CompanyFa
         private bool EmployeeShouldBePaidToday(Employee employee)
         {
             // this is where we determine if the employee should be paid
-            return true;  // let's just say everyone will be paid
+
+            return true;  // let's just say everyone will be paid instead of creating an algorithm here.
         }
 
         private double CalculateSalaryToBePaid(Employee employee)
         {
             // this is where the salary will be calculated
+            // We use the conditional if statement in this case.
+            // In the real world, we would probably have all of this information inside a database so the "logic"
+            // does not have to be used.
             if (employee.AdjustedSalary != 0)
                 return employee.AdjustedSalary; // let's say everyone will be paid their max salary. (i.e. PAYDAY!!!)
             else

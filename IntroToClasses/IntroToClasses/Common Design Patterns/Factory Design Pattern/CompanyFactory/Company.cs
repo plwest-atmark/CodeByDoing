@@ -1,7 +1,6 @@
 using IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.CompanyFactory;
 using IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.CompanyFactory.DepartmentFactory.Departments;
 using IntroToClasses.Common_Design_Patterns.Factory_Design_Pattern.CompanyFactory.DepartmentFactory.EmployeeProduct;
-using System;
 using System.Collections.Generic;
 
 /// <summary>
@@ -103,6 +102,15 @@ public abstract class Company
     /// a payroll system, and then the payroll system will determine everything else. Again, this is all based on what the company asking for the software wants.
     /// 
     /// There are an infinite number of ways to build software!!!!!!!!!!!!
+    /// 
+    /// This is a good example of a system that can be VERY complicated on the inside, but to "use" or "consume" the
+    /// system, it is very easy.  It is even easier in the real world because the company would not send the employee to the
+    /// system, but the payroll system would get the information from a secured database.  This could make this method as simple
+    /// as: 
+    /// 
+    /// _payroll.PayEmployees();
+    /// 
+    /// 
     /// </summary>
     internal void PayEmployees()
     {

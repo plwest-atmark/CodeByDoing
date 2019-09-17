@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IntroToClasses.Inheritence.Animal">
+    <Position X="0.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAABQAAAAAEAAAAAQAAACAAAAAAAAAAggAAAAA=</HashCode>
+      <FileName>Inheritence\Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntroToClasses.Inheritence.Cat">
+    <Position X="2.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inheritence\Cat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntroToClasses.Inheritence.Dog">
+    <Position X="2.5" Y="3.75" Width="1.75" />
+    <InheritanceLine Type="IntroToClasses.Inheritence.Animal" FixedToPoint="true">
+      <Path>
+        <Point X="1.375" Y="3.911" />
+        <Point X="1.375" Y="4.523" />
+        <Point X="2.5" Y="4.523" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inheritence\Dog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntroToClasses.Inheritence.Horse">
+    <Position X="2.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inheritence\Horse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
